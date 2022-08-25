@@ -127,3 +127,20 @@ body {
 .button.hh {
     background-color: #d6001c;
 }
+
+.dev {
+    width: 95px;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.dev-text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #303030;
+}
+
+.dev-icon {
+    width: 13px;
+}

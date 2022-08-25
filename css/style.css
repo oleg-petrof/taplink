@@ -75,3 +75,55 @@ body {
     color: #A3A3A3;
     margin-top: 4px;
 }
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+    margin: auto;
+    gap: 10px;
+
+}
+
+.button {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    flex-shrink: 1;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.button.vk {
+    background-color: #4C75A3;
+}
+
+.button.vk {
+    background-color: #0088CC;
+}
+
+.button.yt {
+    background-color: #ED1515;
+}
+
+.button.hh {
+    background-color: #d6001c;
+}
